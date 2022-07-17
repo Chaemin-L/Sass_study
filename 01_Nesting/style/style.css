@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*
+    여러 줄 주석은 컴파일 해도 존재(style.css에 존재)
+*/
+nav {
+  background-color: rgb(223, 169, 223);
+  padding: 10px;
+  height: 50px;
+  border: double white;
+  border-radius: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 10px;
+  color: white;
+  transition: all 1s;
+}
+nav ul li:hover {
+  color: purple;
+  cursor: pointer;
+}
+
+div {
+  padding: 10px;
+}
+p {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+/*
+    여러 줄 주석은 컴파일 해도 존재(style.css에 존재)
+*/
+
+// 한 줄 주석은 컴파일시 제거됨.(style.css에 없음)
+
+nav{
+    background-color: rgb(223, 169, 223);
+    padding: 10px;
+    height: 50px;
+    border: double white {
+        radius: 20px;
+    };
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        li{
+            margin-right: 10px;
+            color: white;
+            transition: all 1s;
+            &:hover{
+                color: purple;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+div{
+    padding: 10px;
+    @at-root p{
+        color: gray;
+    }
+}
